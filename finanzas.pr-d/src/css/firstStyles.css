@@ -1,0 +1,35 @@
+
+body{
+    --secondary-color: #e0f7fa;
+    background: linear-gradient(to right, #1e88e5, #121212);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+header {
+    background:transparent;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem
+}
+main p{
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+button {
+    background-color: #242424;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #121212;
+}

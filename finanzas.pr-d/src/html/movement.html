@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Movements - Personal Finance</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script type="module" src="../js/main.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Movements</h1>
+    <nav>
+      <a href="./dashboard.html">Dashboard</a>
+      <a href="/src/html/categories.html">Categories</a>
+      <a href="./reportes.html">Reports</a>
+      <button id="logout">LogOut</button>
+    </nav>
+  </header>
+  <main>
+    <form id="form-movement">
+      <select name="type" required>
+        <option value="revenue">revenue</option>
+        <option value="expense">expense</option>
+      </select>
+      <input type="text" name="description" placeholder="Description" required />
+      <input type="number" name="amount" placeholder="Amount" required />
+      <input type="date" name="date" required />
+      <select name="Category" required></select>
+      <button type="submit">save</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Amount</th>
+          <th>Date</th>
+          <th>Category</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="tbody-movements"></tbody>
+    </table>
+  </main>
+  <script type="module" src="/src/js/movements.js"></script>
+
+</body>
+</html>

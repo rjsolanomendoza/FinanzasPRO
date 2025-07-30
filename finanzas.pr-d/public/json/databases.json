@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123"
+    },
+    {
+      "username": "user1",
+      "password": "user123"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alimentación"
+    },
+    {
+      "id": 2,
+      "name": "Transporte"
+    },
+    {
+      "id": 3,
+      "name": "Entretenimiento"
+    }
+  ],
+  "movements": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "amount": 50000,
+      "date": "2025-07-29",
+      "description": "Alimentación"
+    },
+    {
+      "id": "c251",
+      "type": "revenue",
+      "description": "comida",
+      "amount": 60000,
+      "date": "2025-07-29",
+      "categoryId": 1
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Categories - Personal Finance</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script type="module" src="../js/main.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Categories</h1>
+    <nav>
+      <a href="./dashboard.html">Dashboard</a>
+      <a href="/src/html/movement.html">Movements</a>
+      <a href="./reports.html">Reports</a>
+      <button id="logout-btn">logout</button>
+    </nav>
+  </header>
+  <main>
+    <form id="form-categorie">
+      <input type="text" name="name" placeholder="categorie name" required />
+      <button type="submit">save</button>
+    </form>
+    <ul id="categorie-list"></ul>
+  </main>
+  <script type="module" src="../js/categories.js"></script>
+</body>
+</html>

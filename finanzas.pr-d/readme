@@ -1,0 +1,26 @@
+#PersonalFinance
+
+*PersonalFinance* is a web application for personal financial management, developed with HTML, CSS, and JavaScript. It allows users to record financial transactions, organize them by category, view reports, and access them via authentication.
+
+---
+
+## Features
+
+- ✅ Income and expense tracking
+- ✅ Custom category management
+- ✅ Reports by category (totals)
+- ✅ User authentication
+- ✅ Responsive interface
+- ✅ Local backend with JSON server
+- ✅ Frontend development with Vite
+
+---
+
+## Technologies used
+
+- HTML5 + CSS3 (with responsive design and CSS variables)
+- Modern JavaScript (ES Modules)
+- Vite as a frontend development server
+- JSON server as a mock backend
+
+---
